@@ -38,3 +38,11 @@ dialog .dialog-header{position:sticky;top:-30px;background:#11131d;z-index:3;pad
 .author-profile-link{display:inline-flex;justify-content:space-between;align-items:center;gap:35px;min-height:48px;padding:13px 17px;margin-top:23px;border:1px solid #475577;border-radius:3px;background:#1c2335;color:#e7edff;font-size:12px;transition:background .18s,border-color .18s,transform .18s}
 .author-profile-link>span{font-size:23px;color:#a5b6ff;line-height:1}.author-profile-link:hover{background:#28334f;border-color:#8399e5;transform:translateY(-2px)}
 @media(max-width:520px){.author-profile-link{font-size:11px;gap:25px;width:100%}}
+
+.author-credentials{display:grid;grid-template-columns:1fr 1.25fr;gap:24px;max-width:580px;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid #343b54}
+.author-credentials strong{display:block;font-size:45px;line-height:1.1;letter-spacing:-.055em;font-weight:500;color:#eff1fa}
+.author-credentials>div:last-child strong{color:#8d9bff}
+.author-credentials span{display:block;margin-top:9px;font-size:11px;line-height:1.5;color:#9da6c0}
+@media(max-width:800px){.author-credentials{gap:20px}.author-credentials strong{font-size:37px}.author-credentials span{font-size:10px}}
+@media(max-width:520px){.author-credentials{gap:22px;margin-bottom:22px;padding-bottom:22px}.author-credentials strong{font-size:39px}.author-credentials span{font-size:10px}}
+@media(max-width:360px){.author-credentials strong{font-size:34px}}
